@@ -1,4 +1,4 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - Interactive Intro page with dropdown Solution
 
 This is a solution to the Interactive Intro page with dropdown. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
