@@ -9,3 +9,13 @@
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
 }
+.dropdown-cursor{ 
+    cursor: pointer;
+}
+@font-face {
+    font-family: 'Epilogue';
+    src: url('./fonts/Epilogue-Regular.eot');
+}
+.Epilogue{
+    font-family: 'Epilogue';
+}

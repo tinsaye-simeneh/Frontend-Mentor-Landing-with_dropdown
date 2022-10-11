@@ -31,9 +31,9 @@
     </style>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid px-5">
       <div class="row">
-        <div class="col-8 float-left bg-secondary">
+        <div class="col-8 float-left Epilogue" style="font-weight:500">
           <ul class="nav pt-4 pb-3 pl-3">
             <li class="nav-item">
               <a class="nav-link text-white" href="#"
@@ -41,11 +41,8 @@
               </a>
             </li>
             
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#"></a>
-            </li>
-              <li class="nav-item open">
-                <a class="bg-secondary text-white" data-toggle="dropdown"> 
+              <li class="nav-item open dropdown-cursor pl-3">
+                <a class="text-secondary bg-white" data-toggle="dropdown"> 
                   Features <span class="caret"></span>
               </a>
                 <ul class="dropdown-menu">
@@ -54,19 +51,40 @@
                   <li><a href="#">Menu3</a></li>
                 </ul>
               </li>
+              <li class="nav-item open dropdown-cursor pl-3">
+                <a class="text-secondary bg-white" data-toggle="dropdown"> 
+                  Company <span class="caret"></span>
+              </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Menu1</a></li>
+                  <li><a href="#">Menu2</a></li>
+                  <li><a href="#">Menu3</a></li>
+                </ul>
+              </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Company </a>
+              <a class="nav-link text-secondary bg-white" href="#">Careers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Careers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">About</a>
+              <a class="nav-link text-secondary bg-white" href="#">About</a>
             </li>
           </ul>
         </div>
-        <div class="col-4 bg-primary">
-          yes
+        <div class="col-4">
+          <div class="float-right">
+            <button
+              type="button"
+              class="btn btn-outline-secondary mr-3 mt-4"
+            >
+              Login
+            </button>
+            <button
+              type="button"
+              class="btn btn-white border px-5 mt-4"
+              style="border-radius: 10px"
+            >
+               Register
+            </button>
+          </div>
          </div>
       </div>
     </div>
