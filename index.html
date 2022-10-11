@@ -12,8 +12,7 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./index.css" />
-
-    <link
+   <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
@@ -32,7 +31,7 @@
     </style>
   </head>
   <body>
-    <div class="container-fluid bg-primary">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-8 float-left bg-secondary">
           <ul class="nav pt-4 pb-3 pl-3">
@@ -41,14 +40,22 @@
                 ><img src="./images/logo.svg" alt="logo" />
               </a>
             </li>
+            
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Features</a>
+              <a class="nav-link text-white" href="#"></a>
             </li>
+              <li class="nav-item open">
+                <a class="bg-secondary text-white" data-toggle="dropdown"> 
+                  Features <span class="caret"></span>
+              </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Menu1</a></li>
+                  <li><a href="#">Menu2</a></li>
+                  <li><a href="#">Menu3</a></li>
+                </ul>
+              </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#">Company </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Careers</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#">Careers</a>
@@ -58,22 +65,12 @@
             </li>
           </ul>
         </div>
-        <div class="col-4 float-right bg-secondary">
-          <ul class="nav pt-4 pb-3 pl-3">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Company </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Careers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Careers</a>
-            </li>
-          </ul>
-        </div>
+        <div class="col-4 bg-primary">
+          yes
+         </div>
+      </div>
+    </div>
+        
       </div>
     </div>
     <div class="attribution">
@@ -82,21 +79,8 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
-
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
   </body>
 </html>
