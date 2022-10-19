@@ -5,6 +5,12 @@
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+ .features {
+    min-width: 130px !important;
+  }
+  .company {
+    min-width: 60px !important;
+  }
 .nav-item.open .caret {
     display: inline-block;
     width: 0;
