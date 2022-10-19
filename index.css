@@ -67,13 +67,34 @@
   }
 
 @media (max-width: 768px){
+    .navbar-nav {
+      width: 50%;
+      display: inline-block;
+      text-align: center;
+      background-color: #f8f9fa;
+    }
     .nav-item{
         display: block;
         width: 100%;
-        background-color: #f8f9fa;
-        text-align: center;
+    text-align: center;
+    background-color: green;
+        margin: 0 auto;
       }
       .nav-link{
+        width: 100%;
+        pading: 100px;
+        display: block;
+        background-color: green;
+      }
+      .register-btn{
+        width: 75%;
+        margin-left: 12.5%;
+        margin-top: 10px;
+        display: block;
+        background-color: green;
+      }
+      .dropdown-menu{
+        width: 100%;
         display: block;
         background-color: green;
       }
