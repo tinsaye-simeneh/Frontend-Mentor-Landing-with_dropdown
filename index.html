@@ -38,9 +38,9 @@
             
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <li class="nav-item dropdown-cursor">
-              <a class="nav-link text-secondary bg-white" data-toggle="dropdown" onclick="openDropdown()">
+              <a class="nav-link text-secondary bg-white" data-toggle="dropdown" onclick="openDropdown1()">
                 Features 
-                <img src="./images/icon-arrow-down.svg" id="dropdown-icon"/>
+                <img src="./images/icon-arrow-down.svg" id="dropdown-icon1"/>
               </a>
               <ul class="dropdown-menu text-center features py-2 pr-3" style="margin-left: 10%;">
                 <li class="py-2">
@@ -78,9 +78,9 @@
               </ul>
             </li>
             <li class="nav-item dropdown-cursor">
-              <a class="nav-link text-secondary bg-white" data-toggle="dropdown" onclick="openDropdown()">
+              <a class="nav-link text-secondary bg-white" data-toggle="dropdown" onclick="openDropdown2()">
                 Company
-                  <img src="./images/icon-arrow-down.svg" id="dropdown-icon"/>
+                  <img src="./images/icon-arrow-down.svg" id="dropdown-icon2"/>
               </a>
               <div class="dropdown-menu company text-center" style="margin-left: 20%;" aria-labelledby="dropdownMenuButton">
                <a href="#" class="dropdown-item">History</a>
@@ -220,11 +220,18 @@
       function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
       }
-      function openDropdown (){
-        if(document.getElementById("dropdown-icon").style.transform == "rotate(180deg)"){
-          document.getElementById("dropdown-icon").style.transform = "rotate(0deg)";
+      function openDropdown1 (){
+        if(document.getElementById("dropdown-icon1").style.transform == "rotate(180deg)"){
+          document.getElementById("dropdown-icon1").style.transform = "rotate(0deg)";
         }else{
-          document.getElementById("dropdown-icon").style.transform = "rotate(180deg)";
+          document.getElementById("dropdown-icon1").style.transform = "rotate(180deg)";
+        }
+      }
+      function openDropdown2 (){
+        if(document.getElementById("dropdown-icon2").style.transform == "rotate(180deg)"){
+          document.getElementById("dropdown-icon2").style.transform = "rotate(0deg)";
+        }else{
+          document.getElementById("dropdown-icon2").style.transform = "rotate(180deg)";
         }
       }
       </script>
