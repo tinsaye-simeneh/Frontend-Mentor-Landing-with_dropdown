@@ -23,16 +23,19 @@
   </head>
   <body>
     <div class="container-fluid px-5">
-      <nav class="navbar navbar-expand-md bg-white navbar navbar-light navbar-expand-md bg-light justify-content-md-center justify-content-start">
+      <nav class="navbar pt-3 navbar-expand-md text-white navbar navbar-dark navbar-expand-md justify-content-md-center justify-content-start">
         <a class="navbar-brand" href="#">
           <img src="./images/logo.svg" alt="logo" />
           </a>  
-          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon">
+      
+            <span type="button" data-toggle="collapse" data-target="#collapsibleNavbar" class="navbar-toggler ml-auto" onclick="openNav()">&#9776;</span>
           </span>
-        </button>
+
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <div id="mySidenav" class="sidenav">
           <ul class="navbar-nav">
+            
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <li class="nav-item dropdown-cursor">
               <a class="nav-link text-secondary bg-white" data-toggle="dropdown">
                 Features <span class="caret"></span>
@@ -109,6 +112,7 @@
           </ul>
           </ul>
         </div>
+        </div>
       </nav>
       </div>
 
@@ -181,7 +185,7 @@
                 <img
                 src="./images/image-hero-desktop.png"
                 alt="intro"
-                width="600px" height="500px"
+                width="500px" height="500px"
               />
           </div>
           </div> 
@@ -204,5 +208,16 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
       rel="stylesheet"
     />
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "75%";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+
   </body>
 </html>
