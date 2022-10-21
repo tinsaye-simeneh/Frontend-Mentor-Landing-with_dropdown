@@ -74,7 +74,29 @@
   .closebtn{
     display: none;
   }
+  .desktop-img{
+    display:block;
+  }
+  .mobile-img{
+    display: none;
+  }
 @media (max-width: 768px){
+  .container-custom{
+    padding: 0px;
+    width: 100%;
+  }
+  .partner{
+    width: 15%;
+  }
+  .home-text{
+    text-align: center;
+  }
+  .desktop-img{
+    display: none;
+  }
+  .mobile-img{
+    display: block;
+  }
   .sidenav {
     height: 100%;
     float: right;
