@@ -11,6 +11,12 @@
   .company {
     min-width: 60px !important;
   }
+  .bootstrap-select.btn-group .dropdown-toggle .caret {
+    width: 10px;
+    height: 10px;
+    border: none;
+    background-color: white;
+  }
 .nav-item.open .caret {
     display: inline-block;
     width: 0;
