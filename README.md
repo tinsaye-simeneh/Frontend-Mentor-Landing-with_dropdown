@@ -44,6 +44,6 @@ This project teaches me how to use bootstrap and how to use it to make a respons
 Additionally, the use of media queries, CSS Grid and also the design workflows.
 ## Author
 
-- Github - [@tinsaye-simeneh](https://github.com/tinsaye-simeneh)
+- Github username - [@tinsaye-simeneh](https://github.com/tinsaye-simeneh)
 - Frontend Mentor - [@tinsaye-simeneh](https://www.frontendmentor.io/profile/tinsaye-simeneh)
 
